@@ -1,0 +1,4 @@
+jobs:
+  - name: fetch_data_from_url
+    schedule: "* * * * *"
+    command: "curl -sS https://app.trustsync.dev/ingest"
